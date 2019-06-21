@@ -647,6 +647,15 @@ img {
   form {
     padding-bottom: 5rem;
   }
+  .btn-dark {
+    width: 150px !important;
+  }
+}
+
+@media (min-width: 1000px){
+  form {
+    padding-bottom: 10rem;
+  }
 }
 
 @media (max-height: 580px) {
