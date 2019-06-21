@@ -300,7 +300,7 @@ img {
   height: 100vh;
   color: white;
 }
-#header-home .lead2 {
+.lead2 {
   display: none;
 }
 #header-home .header-content {
