@@ -569,9 +569,6 @@ img {
     background-attachment: initial;
     background-repeat: no-repeat;
   }
-  /* .title-Js{
-    padding-top: 1rem !important;
-  } */
   .section-title{
     padding-top: 0;
   }
@@ -646,6 +643,9 @@ img {
     flex-direction: column;
     padding: 1rem;
     height: 5rem;
+  }
+  form {
+    padding-bottom: 5rem;
   }
 }
 
