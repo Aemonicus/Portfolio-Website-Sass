@@ -300,6 +300,9 @@ img {
   height: 100vh;
   color: white;
 }
+#header-home .lead2 {
+  display: none;
+}
 #header-home .header-content {
   text-align: center;
   padding-top: 20%;
@@ -563,6 +566,29 @@ img {
     height: 10rem;
     border-bottom: 3px solid #3479ae;
     background-position: 20% 30%;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+  }
+  /* .title-Js{
+    padding-top: 1rem !important;
+  } */
+  .section-title{
+    padding-top: 0;
+  }
+  #home-a .lead{
+    display: none;
+  }
+  #home-a, 
+  #about-a,
+  #work-a,
+  #contact-a {
+    padding-top: 1rem;;
+  }
+  #home-a .lead2{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
   }
   #header-home .header-content {
     display: none;
