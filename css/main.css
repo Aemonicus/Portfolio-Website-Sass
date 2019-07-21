@@ -513,6 +513,10 @@ img {
   font-size: 4rem;
 }
 
+.netlify-catcha {
+  width: 100px;
+}
+
 #main-footer {
   background: #333;
   color: #fff;
