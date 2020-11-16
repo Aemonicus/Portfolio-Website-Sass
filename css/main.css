@@ -21,7 +21,10 @@ body {
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
-  margin-top: 100px;
+}
+
+.hero h1{
+  margin-top: 150px;
 }
 
 .title-project {
@@ -165,7 +168,7 @@ input[class^="btn-"]:hover {
   width: 3rem;
   background: #3479ae;
   display: block;
-  margin: 0 auto 1rem auto;
+  margin: 0.8rem auto 1rem auto;
 }
 
 .items {
@@ -305,7 +308,7 @@ img {
   font-size: 1.2rem;
 }
 #main-nav a:hover {
-  border-color: #ccc;
+  border-color: #3479ae;
 }
 #main-nav a.current {
   border-color: #3479ae;
@@ -339,7 +342,7 @@ img {
   font-weight: bold;
 }
 #main-nav-2 a:hover {
-  border-color: #ccc;
+  border-color: #3479ae;
 }
 #main-nav-2 a.current {
   border-color: #3479ae;
@@ -636,21 +639,36 @@ img {
   align-items: center;
 }
 
-.imgReduite-1, .imgReduite-2 {
+.imgReduite-1, .imgReduite-b, .imgReduite-quisuisje, .imgReduite-contact {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 500px;
   height: 600px;
+}
+.imgReduite-1 {
+  margin-right: 100px;
+}
+
+.imgReduite-b {
+  background-image: url("../img/IMG_4496.jpeg");
   margin-left: 100px;
 }
 
-.imgReduite-2 {
+.imgReduite-quisuisje {
   background-image: url("../img/IMG_4440.jpeg");
   border-radius: 50%;
   margin-left: 0;
   margin-right: 100px;
+}
+
+.imgReduite-contact {
+  margin-left: 100px;
+}
+
+.inner-container {
+  margin-top: 100px;
 }
 
 #home-c {
