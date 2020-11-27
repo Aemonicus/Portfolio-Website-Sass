@@ -11,7 +11,7 @@ body {
   min-height: 100%;
   position: relative;
   padding-bottom: [footer-height];
-  font-family: "Dosis", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .hero h1{
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 .title-project {
@@ -110,7 +110,7 @@ input[class^="btn-"]:hover {
 }
 
 .lead.hero {
-  margin-top: 80px;
+  margin-top: 160px;
   color: white;
   font-size: 2rem;
 }
@@ -355,7 +355,7 @@ img {
 }
 
 #header-home {
-  background: url("../img/_MG_9028.jpg") no-repeat center right/cover;
+  background: url("../img/cerisier.jpg") no-repeat center right/cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
