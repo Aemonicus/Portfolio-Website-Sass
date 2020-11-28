@@ -24,7 +24,7 @@ body {
 }
 
 .hero h1{
-  margin-top: 220px;
+  margin-top: 150px;
 }
 
 .title-project {
@@ -355,7 +355,7 @@ img {
 }
 
 #header-home {
-  background: url("../img/cerisier.jpg") no-repeat center right/cover;
+  background: url("../img/hero-lac-2.jpg") no-repeat center right/cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
@@ -374,12 +374,6 @@ img {
   line-height: 1.2;
   color: white;
 }
-/* 
-#header-inner {
-  background: url("../img/cerisier.jpg") no-repeat 20% 30% / cover;
-  height: 5.5rem;
-  border-bottom: 3px solid #3479ae;
-} */
 
 #home-a .specials {
   margin-top: 3rem;
