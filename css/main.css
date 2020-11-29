@@ -710,13 +710,40 @@ img {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-height: 750px) {
+  #header-home .header-content p.lead {
+    margin-top: 320px;
+  }
+}
+
+@media (max-height: 670px) {
+  #header-home .header-content p.lead {
+    margin-top: 280px;
+  }
+}
+
+@media (max-height: 650px) {
+  #header-home .header-content p.lead {
+    margin-top: 250px;
+  }
+}
+
+@media (max-height: 570px) {
+  #header-home .header-content p.lead {
+    margin-top: 200px;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
   #main-nav-2 {
     flex-direction: column;
     align-items: center;
     height: 100vh;
     background-color: inherit;
-      }
+  }
 
   #main-nav-2 a {
     border-bottom: 0px;
@@ -724,31 +751,66 @@ img {
   
   #header-home {
     height: 100vh;
-    background-position: 20% 30%;
+    background-position: 50% 50%;
     background-attachment: initial;
     background-repeat: no-repeat;
   }
-  .section-title {
+
+  #header-home .header-content {
     padding-top: 0;
   }
-  #home-a .lead {
-    display: none;
+
+  #header-home .header-content h1 {
+    font-size: 1.5rem;
   }
-  #home-a,
-  #about-a,
-  #work-a,
-  #contact-a {
-    padding-top: 1rem;
+
+  #header-home .header-content p.lead {
+    font-size: 1rem;
+    font-weight: bold;
   }
+  .section-title {
+    padding-top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .inner-container {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  #home-b .container .inner-container {
+    flex-direction: column-reverse;
+  }
+
+  .lead {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
   #home-a .lead2 {
     display: block;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 2rem;
   }
-  #header-home .header-content {
-    display: none;
+
+  .imgReduite-1, .imgReduite-b, .imgReduite-quisuisje, .imgReduite-contact {
+    margin: 0;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 600px;
+    max-width: 90vw;
+    max-height: 300px;
   }
+
+  .imgReduite-contact {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
   #header-inner {
     height: 10rem;
   }
@@ -809,17 +871,9 @@ img {
   .btn-dark {
     width: 150px !important;
   }
-}
 
-@media (min-width: 600px) {
-  form {
-    padding-bottom: 10rem;
-  }
-}
-
-@media (max-height: 580px) {
-  #header-home .header-content {
-    padding-top: 3rem;
+  #contact {
+    padding-bottom: 0;
   }
 }
 
@@ -829,18 +883,3 @@ img {
   }
 }
 
-@media (max-width: 360px) {
-  #main-nav-2 li {
-    padding: 1rem 0.5rem;
-  }
-}
-
-@media (max-width: 350px) {
-  #main-nav-2 {
-    flex-direction: column;
-    align-items: center;
-  }
-  #main-nav li {
-    padding: 1rem 0.3rem;
-  }
-}
