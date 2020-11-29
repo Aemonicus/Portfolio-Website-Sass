@@ -711,16 +711,19 @@ img {
 }
 
 @media (max-width: 500px) {
-  #main-nav {
+  #main-nav-2 {
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    background-color: inherit;
+      }
+
+  #main-nav-2 a {
+    border-bottom: 0px;
   }
-  #main-nav li {
-    padding: 1rem;
-  }
+  
   #header-home {
-    height: 10rem;
-    border-bottom: 3px solid #3479ae;
+    height: 100vh;
     background-position: 20% 30%;
     background-attachment: initial;
     background-repeat: no-repeat;
@@ -827,13 +830,13 @@ img {
 }
 
 @media (max-width: 360px) {
-  #main-nav li {
+  #main-nav-2 li {
     padding: 1rem 0.5rem;
   }
 }
 
 @media (max-width: 350px) {
-  #main-nav {
+  #main-nav-2 {
     flex-direction: column;
     align-items: center;
   }
