@@ -743,6 +743,7 @@ img {
     align-items: center;
     height: 100%;
     background-color: inherit;
+    justify-content: flex-start;
   }
 
   #main-nav-2 a {
