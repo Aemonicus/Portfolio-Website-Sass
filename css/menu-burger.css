@@ -48,7 +48,7 @@ header::after {
 .site-nav ul {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 400px;
   list-style: none;
   display: flex;
   flex-direction: column;
