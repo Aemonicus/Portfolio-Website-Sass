@@ -741,7 +741,7 @@ img {
   #main-nav-2 {
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-color: inherit;
   }
 
