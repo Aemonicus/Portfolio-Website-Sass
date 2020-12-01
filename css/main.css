@@ -91,7 +91,7 @@ input[class^="btn-"]:hover {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 2rem;
 }
@@ -100,6 +100,7 @@ input[class^="btn-"]:hover {
   text-align: left;
   width: 100%;
   max-width: 700px;
+  margin-bottom: 1rem;
 }
 
 .lead > a {
@@ -553,7 +554,6 @@ img {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
-  margin-bottom: 1.2rem;
 }
 #contact-a .text-fields .name-input {
   grid-area: name;
@@ -639,7 +639,7 @@ img {
   background-size: cover;
   background-position: center;
   width: 500px;
-  height: 600px;
+  height: 500px;
 }
 .imgReduite-1 {
   margin-right: 100px;

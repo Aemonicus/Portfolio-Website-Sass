@@ -41,7 +41,7 @@
         <p class="lead hero">
           Le secret du changement est de concentrer toute notre énergie, <br> non pas à lutter contre notre passé, mais
           à
-          construire notre avenir
+          construire notre avenir.
         </p>
       </div>
     </div>
@@ -121,7 +121,7 @@
       <div class="inner-container">
         <p class="lead force">
 
-          Pourquoi choisir la Gestalt thérapie ? <br>
+          <u>Pourquoi choisir la Gestalt thérapie ?</u> <br>
           La Gestalt thérapie peut s'adresser à tout le monde parce qu'elle prend en compte tous les aspects de notre
           personne et qu'elle traite l'ensemble des problèmes que nous pouvons rencontrer, qu'il soit d'ordre psychique
           ou
@@ -136,11 +136,11 @@
 
           <br> <br>
 
-          Motifs de consultations <br>
-          Relations conflictuelles : Couple, travail, enfant, famille <br>
-          Difficultés au travail : Burn-out, harcèlement <br>
-          Changement de vie : Séparation, deuil, retraite <br>
-          Développement personnel : Confiance en soi, estime de soi, anxiété, crise existentielle.
+          <u>Motifs de consultations</u> <br>
+          Relations conflictuelles : Couple - travail - enfant - famille <br>
+          Difficultés au travail : Burn-out - harcèlement <br>
+          Changement de vie : Séparation - deuil - retraite <br>
+          Développement personnel : Confiance en soi - estime de soi - anxiété - crise existentielle
         </p>
         <img class="imgReduite-b" />
       </div>
@@ -162,7 +162,7 @@
           d’expression que je vous propose est « un sanctuaire » où vous serez accueilli dans une posture d’écoute
           bienveillante et de non jugement.
           <br> <br>
-          Charte de déontologie <br>
+          <u>Charte de déontologie</u> <br>
           J’applique le code de déontologie de l’IFAS, Ecole Humaniste de Gestalt, en particulier : le respect, le
           non-jugement, la confidentialité, la bienveillance, le cadre défini, la méthode et ses protocoles, l’intérêt
           élevé pour vous, la formation continue et la supervision.
@@ -180,37 +180,57 @@
       </h2>
       <div class="bottom-line"></div>
       <div class="inner-container">
-        <p class="lead quisuisje">
-          Consultations individuelles pour adultes, <br>
-          Sur RENDEZ VOUS UNIQUEMENT : 06 16 38 27 08 <br>
-          Durée des séances : 50 minutes <br>
-          Tarif : 50€
-          <br><br>
-          <!-- </p>
-        <p class="lead quisuisje"> -->
-          Accéder au cabinet <br>
-          Pôle médical <br>
-          313 rue Jacques Balmat <br>
-          34500 Béziers <br>
-          Tel : 06 16 38 27 08
-          <br> <br>
-          <!-- </p>
-        <p class="lead quisuisje"> -->
-          L’Actualité Covid-19 <br>
-          Dans le contexte actuel, mon activité en accompagnement individuel continue en présentiel à mon cabinet,
-          toujours dans le respect strict des gestes barrières. Des rendez-vous sont aussi possibles en
-          télé-consultation (visio ou téléphone). En cette période de confinement répété, il est particulièrement
-          important de soigner notre santé psychique, nos modes relationnels et de prendre soin de soi pour mieux
-          pouvoir prendre soin des autres.
+        <div class="left-content">
+          <p class="lead quisuisje">
+            <u>Consultations individuelles pour adultes</u> <br>
+            Sur RENDEZ VOUS UNIQUEMENT : 06 16 38 27 08 <br>
+            Durée des séances : 50 minutes <br>
+            Tarif : 50€
+          </p>
 
-        </p>
+          <p class="lead quisuisje">
+            <u>Accéder au cabinet</u> <br>
+            Pôle médical <br>
+            313 rue Jacques Balmat <br>
+            34500 Béziers <br>
+            Tel : 06 16 38 27 08
+          </p>
+          <p class="lead quisuisje">
+            <u>L’Actualité Covid-19</u> <br>
+            Dans le contexte actuel, mon activité en accompagnement individuel continue en présentiel à mon cabinet,
+            toujours dans le respect strict des gestes barrières. Des rendez-vous sont aussi possibles en
+            télé-consultation (visio ou téléphone). En cette période de confinement répété, il est particulièrement
+            important de soigner notre santé psychique, nos modes relationnels et de prendre soin de soi pour mieux
+            pouvoir prendre soin des autres.
+          </p>
+        </div>
         <img class="imgReduite-contact" />
+
       </div>
     </div>
   </section>
 
-  <!-- latitude et longitude du cabinet :43.336190, 3.255562 -->
-
+  <!-- Section A: Contact Form -->
+  <section id="contact-a" class="text-center py-2">
+    <div class="container">
+      <p class="lead">Vous pouvez me joindre à travers le formulaire ci-dessous</p>
+      <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <div class="text-fields">
+          <input type="text" class="text-input name-input" placeholder="Votre nom et prénom" name="name" required />
+          <input type="text" class="text-input subject-input" placeholder="Titre du message" name="subject" required />
+          <input type="email" class="text-input email-input" placeholder="Votre Email pour vous répondre" required
+            name="email" />
+          <input type="text" class="text-input phone-input" placeholder="Votre numéro de téléphone (optionnel)"
+            name="phone" />
+          <textarea class="text-input message-input" placeholder="Votre message" required name="message"></textarea>
+          <div class="my-2 netlify-catcha">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn-dark">envoyer</button>
+      </form>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer id="main-footer">
