@@ -370,6 +370,11 @@ img {
   color: white;
 }
 
+#home-a .first-container {
+max-width: 900px;
+text-align: left;
+}
+
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
