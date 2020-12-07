@@ -166,6 +166,7 @@ header::after {
 .site-nav--open li:nth-child(3) { animation-delay: 300ms; }
 .site-nav--open li:nth-child(4) { animation-delay: 400ms; }
 .site-nav--open li:nth-child(5) { animation-delay: 500ms; }
+.site-nav--open li:nth-child(6) { animation-delay: 600ms; }
 
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateX(-200px)}
@@ -181,13 +182,14 @@ header::after {
 
 .site-nav--closed.closing li {
   opacity: 1;
-  animation: fadeOut var(--bezier) 500ms forwards;
+  animation: fadeOut var(--bezier) 600ms forwards;
 }
 
-.site-nav--closed li:nth-child(1) { animation-delay: 500ms; }
-.site-nav--closed li:nth-child(2) { animation-delay: 400ms; }
-.site-nav--closed li:nth-child(3) { animation-delay: 300ms; }
-.site-nav--closed li:nth-child(4) { animation-delay: 200ms; }
-.site-nav--closed li:nth-child(5) { animation-delay: 100ms; }
+.site-nav--closed li:nth-child(1) { animation-delay: 600ms; }
+.site-nav--closed li:nth-child(2) { animation-delay: 500ms; }
+.site-nav--closed li:nth-child(3) { animation-delay: 400ms; }
+.site-nav--closed li:nth-child(4) { animation-delay: 300ms; }
+.site-nav--closed li:nth-child(5) { animation-delay: 200ms; }
+.site-nav--closed li:nth-child(6) { animation-delay: 100ms; }
 
 }

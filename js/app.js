@@ -10,7 +10,7 @@ toggle.addEventListener("click", function () {
     siteNav.classList.add("site-nav--closed", "closing");
     // setTimeout(() => {
     //   siteNav.style.backgroundColor = "inherit"
-    // }, 750)
+    // }, 800)
   } else {
     siteNav.classList.remove("site-nav--closed", "closing");
     toggle.classList.add("open");
@@ -28,7 +28,7 @@ menuLinks.addEventListener("click", () => {
     siteNav.classList.add("site-nav--closed", "closing");
     // setTimeout(() => {
     //   siteNav.style.backgroundColor = "inherit"
-    // }, 750)
+    // }, 800)
   } else {
     siteNav.classList.remove("site-nav--closed", "closing");
     toggle.classList.add("open");
