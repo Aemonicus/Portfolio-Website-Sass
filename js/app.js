@@ -8,9 +8,9 @@ toggle.addEventListener("click", function () {
     toggle.classList.remove("open");
 
     siteNav.classList.add("site-nav--closed", "closing");
-    // setTimeout(() => {
-    //   siteNav.style.backgroundColor = "inherit"
-    // }, 800)
+    setTimeout(() => {
+      siteNav.style.backgroundColor = "inherit"
+    }, 800)
   } else {
     siteNav.classList.remove("site-nav--closed", "closing");
     toggle.classList.add("open");
@@ -26,9 +26,9 @@ menuLinks.addEventListener("click", () => {
     toggle.classList.remove("open");
 
     siteNav.classList.add("site-nav--closed", "closing");
-    // setTimeout(() => {
-    //   siteNav.style.backgroundColor = "inherit"
-    // }, 800)
+    setTimeout(() => {
+      siteNav.style.backgroundColor = "inherit"
+    }, 800)
   } else {
     siteNav.classList.remove("site-nav--closed", "closing");
     toggle.classList.add("open");
